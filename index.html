@@ -2,740 +2,303 @@
 <html lang="id">
 
 <head>
-
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <title>Portfolio | Muhammad Alif Anail Adi</title>
 
-    <title>
-        Portfolio | Muhammad Alif Anail Adi
-    </title>
-
-    <link
-        rel="stylesheet"
-        href="style.css"
-    >
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 
 <body>
 
-
-    <!-- =====================================
-         WELCOME SCREEN
-    ====================================== -->
-
     <div id="welcomeScreen">
-
         <div class="welcome-content">
-
             <div class="loader"></div>
-
-            <h1>
-                WELCOME
-            </h1>
-
-            <p>
-               On My Portfolio Website
-            </p>
-
+            <h1>WELCOME</h1>
+            <p>On My Portfolio Website</p>
         </div>
-
     </div>
-
-
-
-    <!-- =====================================
-         NAVBAR
-    ====================================== -->
 
     <header class="navbar">
 
         <div class="logo">
-
-            <span>
-                Alif
-            </span>
-
-            Portfolio
-
+            <span>Alif</span> Portfolio
         </div>
 
-
         <nav>
-
-            <a
-                href="#home"
-                class="nav-link active"
-            >
-                Home
-            </a>
-
-
-            <a
-                href="#project"
-                class="nav-link"
-            >
-                Project
-            </a>
-
-
-            <a
-                href="#contact"
-                class="nav-link"
-            >
-                Contact
-            </a>
-
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#project" class="nav-link">Project</a>
+            <a href="#contact" class="nav-link">Contact</a>
         </nav>
 
-
-        <button
-            id="themeButton"
-            class="theme-button"
-            aria-label="Ganti tema"
-        >
+        <button id="themeButton" class="theme-button" aria-label="Ganti tema">
             🌙
         </button>
 
     </header>
 
+    <main>
 
+        <!-- HERO SECTION -->
+        <section id="home" class="hero section-padding">
 
-    <!-- =====================================
-         HOME
-    ====================================== -->
-
-    <section
-        id="home"
-        class="page-section active-page"
-    >
-
-        <main>
-
-
-            <!-- HERO -->
-
-            <section class="hero">
-
-
-                <!-- FOTO PROFIL -->
-
-                <div class="hero-image">
-
-                    <div class="image-frame">
-
-                        <img src="gambar-4.jpeg" alt="">
-
-                    </div>
-
-
-                    <div class="image-decoration"></div>
-
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="gambar-4.jpeg" alt="Foto profil Muhammad Alif">
                 </div>
 
+                <div class="image-decoration"></div>
+            </div>
 
+            <div class="hero-content">
 
-                <!-- INFORMASI -->
+                <p class="welcome-text">Hello, I am</p>
 
-                <div class="hero-content">
+                <h1>
+                    Muhammad Alif
+                    <br>
+                    <span>Anail Adi</span>
+                </h1>
 
+                <h2>Beginner Web Developer</h2>
 
-                    <p class="welcome-text">
-                       Hello, I am
-                    </p>
+                <p class="description">
+                    I am Muhammad Alif Anail Adi, a student at SMKN 1 Kepanjen majoring in Software Engineering.
+                    I am deeply interested in programming and want to learn more about web development using HTML,
+                    CSS, and JavaScript.
+                </p>
 
-
-                    <h1>
-
-                        Muhammad Alif
-
-                        <br>
-
-                        <span>
-                            Anail Adi
-                        </span>
-
-                    </h1>
-
-
-                    <h2>
-                    Beginner Web Developer
-                    </h2>
-
-
-                    <p class="description">
-
-                    I am Muhammad Alif Anail Adi, a student at SMKN 1 Kepanjen majoring in Software Engineering. I am deeply interested in programming and want to learn more about web development using HTML, CSS, and JavaScript
-
-                    </p>
-
-
-
-                    <!-- BUTTON -->
-
-                    <div class="hero-buttons">
-
-
-                        <a
-                            href="#project"
-                            class="btn primary page-link"
-                        >
-                            Lihat Project
-                        </a>
-
-
-                        <a
-                            href="#contact"
-                            class="btn secondary page-link"
-                        >
-                            Hubungi Saya
-                        </a>
-
-
-                    </div>
-
-
-
-                    <!-- SOCIAL -->
-
-                    <div class="social-links">
-
-                        <a
-                            href="https://github.com/alif497"
-                            target="_blank"
-                            aria-label="GitHub"
-                        >
-                            GitHub
-                        </a>
-
-
-                        <a
-                            href="https://www.instagram.com/"
-                            target="_blank"
-                            aria-label="Instagram"
-                        >
-                            Instagram
-                        </a>
-
-                    </div>
-
+                <div class="hero-buttons">
+                    <a href="#project" class="btn primary">Lihat Project</a>
+                    <a href="#contact" class="btn secondary">Hubungi Saya</a>
                 </div>
 
-            </section>
-
-
-
-            <!-- ABOUT -->
-
-            <section class="about">
-
-
-                <div class="section-title">
-
-                    <h1>
-                       ABOUT ME
-                    </h1>
-
-                   
-
+                <div class="social-links">
+                    <a href="https://github.com/alif497" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </div>
 
+            </div>
 
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about section-padding">
+
+            <div class="section-title">
+                <h1>ABOUT ME</h1>
+            </div>
+
+            <div class="about-me-container">
                 <div class="about-me-card">
-
-    <h2>
-        Muhammad Alif Anail Adi
-    </h2>
-
-    <p>
-        I am Muhammad Alif Anail Adi, a student at SMKN 1 Kepanjen majoring in Software Engineering. I am deeply interested in programming and want to gain a deeper understanding of website development using HTML, CSS, and JavaScript.
-        <br>
-    </p>
-
-</div>
-               
-
-            </section>
-
-
-
-            <!-- SKILLS -->
-
-            <section class="skills">
-
-
-                <div class="section-title">
-
-                    <h2>
-                        Skills
-                    </h2>
-
-                </div>
-
-
-
-                <div class="skill-container">
-
-
-                    <div class="skill">
-
-                        <div class="skill-info">
-
-                            <span>
-                                HTML
-                            </span>
-
-                            <span>
-                                20%
-                            </span>
-
-                        </div>
-
-
-                        <div class="skill-bar">
-
-                            <div
-                                class="skill-progress html"
-                            ></div>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="skill">
-
-                        <div class="skill-info">
-
-                            <span>
-                                CSS
-                            </span>
-
-                            <span>
-                                10%
-                            </span>
-
-                        </div>
-
-
-                        <div class="skill-bar">
-
-                            <div
-                                class="skill-progress css"
-                            ></div>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="skill">
-
-                        <div class="skill-info">
-
-                            <span>
-                                JavaScript
-                            </span>
-
-                            <span>
-                                5%
-                            </span>
-
-                        </div>
-
-
-                        <div class="skill-bar">
-
-                            <div
-                                class="skill-progress javascript"
-                            ></div>
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-
-            </section>
-
-        </main>
-
-    </section>
-
-
-
-    <!-- =====================================
-         PROJECT
-    ====================================== -->
-
-    <section
-        id="project"
-        class="page-section"
-    >
-
-        <main class="page">
-
-
-            <section class="page-header">
-
-                <p>
-                    My Portfolio
-                </p>
-
-                <h1>
-                    Project
-                </h1>
-
-                <span>
-                    Some of the projects I have worked on.
-                </span>
-
-            </section>
-
-
-
-            <section class="project-container">
-
-
-                <!-- PROJECT 1 -->
-
-                <div class="project-card">
-
-                    <div class="project-number">
-                        01
-                    </div>
-
-
-                    <div class="project-icon">
-                        <img src="gambar-1.png" alt="s" width="360px">
-                    </div>
-
-
-                    <h2>
-                        Website Assignment 1
-                    </h2>
-
+                    <h2>Muhammad Alif Anail Adi</h2>
 
                     <p>
-
-                       The first website project created using HTML and CSS as a basic exercise in web development.
-
+                        I am Muhammad Alif Anail Adi, a student at SMKN 1 Kepanjen majoring in Software Engineering.
+                        I am deeply interested in programming and want to gain a deeper understanding of website
+                        development using HTML, CSS, and JavaScript.
                     </p>
+                </div>
+            </div>
 
+        </section>
 
-                    <div class="project-tech">
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="skills section-padding">
 
-                        <span>
-                            HTML
-                        </span>
+            <div class="section-title">
+                <h2>Skills</h2>
+            </div>
 
-                        <span>
-                            CSS
-                        </span>
+            <div class="skill-cards-grid">
 
-                    </div>
-
-
-                    <a
-                        href="https://github.com/alif497/tugas.1.SMKN1KEPANJEN"
-                        target="_blank"
-                        class="project-button"
-                    >
-                       View on GitHub →
-                    </a>
-
+                <div class="skill-card">
+                    <div class="skill-icon">HTML</div>
+                    <h3>HTML5</h3>
+                    <p>Structure & Markup</p>
                 </div>
 
-
-
-                <!-- PROJECT 2 -->
-
-                <div class="project-card">
-
-                    <div class="project-number">
-                        02
-                    </div>
-
-
-                    <div class="project-icon">
-                        <img src="gambar-2.png" alt="" width="360px">
-                    </div>
-
-
-                    <h2>
-                       Website Assignment 2
-                    </h2>
-
-
-                    <p>
-
-                      The second website project created
-                        to develop skills in
-                        website design and page structure.
-
-                    </p>
-
-
-                    <div class="project-tech">
-
-                        <span>
-                            HTML
-                        </span>
-
-                        <span>
-                            CSS
-                        </span>
-
-                    </div>
-
-
-                    <a
-                        href="https://github.com/alif497/tugas2-SMKN1-Kepanjen"
-                        target="_blank"
-                        class="project-button"
-                    >
-                        View on GitHub →
-                    </a>
-
+                <div class="skill-card">
+                    <div class="skill-icon">CSS</div>
+                    <h3>CSS3</h3>
+                    <p>Styling & Layout</p>
                 </div>
 
+                <div class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Interactivity & Logic</p>
+                </div>
 
+            </div>
 
-                <!-- PROJECT 3 -->
+        </section>
 
-                <div class="project-card">
+        <!-- PROJECT SECTION -->
+        <section id="project" class="project section-padding">
 
-                    <div class="project-number">
-                        03
+            <div class="section-title">
+                <p class="sub-title">My Portfolio</p>
+                <h1>Projects</h1>
+                <span>Some of the projects I have worked on.</span>
+            </div>
+
+            <div class="project-container">
+
+                <a href="https://github.com/alif497/tugas.1.SMKN1KEPANJEN" target="_blank" rel="noopener noreferrer" class="project-card">
+
+                    <div class="project-number">01</div>
+
+                    <div class="project-image">
+                        <img src="gambar-1.png" alt="Project Tugas 1">
                     </div>
 
+                    <div class="project-content">
+                        <h2>Tugas 1</h2>
 
-                    <div class="project-icon">
-                        <img src="gambar-3.png" alt="" width="360px">
+                        <p>
+                            The first website project created using HTML and CSS as a basic exercise in web development.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <span class="project-button">View on GitHub →</span>
                     </div>
 
+                </a>
 
-                    <h2>
-                        Website Assignment 3
-                    </h2>
+                <a href="https://github.com/alif497/tugas2-SMKN1-Kepanjen" target="_blank" rel="noopener noreferrer" class="project-card">
 
+                    <div class="project-number">02</div>
 
-                    <p>
-
-                        The third project, which uses HTML, CSS, and JavaScript to create a more interactive website.
-
-                    </p>
-
-
-                    <div class="project-tech">
-
-                        <span>
-                            HTML
-                        </span>
-
-                        <span>
-                            CSS
-                        </span>
-
-                        <span>
-                            JavaScript
-                        </span>
-
+                    <div class="project-image">
+                        <img src="gambar-2.png" alt="Project Tugas 2">
                     </div>
 
+                    <div class="project-content">
+                        <h2>Tugas 2</h2>
 
-                    <a
-                        href="https://github.com/alif497/tugas-3-smkn1kepanjen"
-                        target="_blank"
-                        class="project-button"
-                    >
-                       View on GitHub →
-                    </a>
+                        <p>
+                            The second website project created to develop skills in website design and page structure.
+                        </p>
 
-                </div><br>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
 
+                        <span class="project-button">View on GitHub →</span>
+                    </div>
 
-            </section>
+                </a>
 
+                <a href="https://github.com/alif497/tugas-3-smkn1kepanjen" target="_blank" rel="noopener noreferrer" class="project-card">
 
+                    <div class="project-number">03</div>
 
-            <div class="back-home">
+                    <div class="project-image">
+                        <img src="gambar-3.png" alt="Project Tugas 3">
+                    </div>
 
-                <a
-                    href="#home"
-                    class="btn secondary page-link"
-                >
-                   ← Back to Home
+                    <div class="project-content">
+                        <h2>Tugas 3</h2>
+
+                        <p>
+                            The third project uses HTML, CSS, and JavaScript to create a more interactive website.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <span class="project-button">View on GitHub →</span>
+                    </div>
+
                 </a>
 
             </div>
 
+        </section>
 
-        </main>
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact section-padding">
 
-    </section>
+            <div class="section-title">
+                <p class="sub-title">Let's Connect</p>
+                <h1>Contact</h1>
+                <span>Please contact me via the following platforms.</span>
+            </div>
 
+            <div class="contact-container">
 
+                <a href="mailto:muhammadalifanailadi@gmail.com" class="contact-card">
 
-    <!-- =====================================
-         CONTACT
-    ====================================== -->
-
-    <section
-        id="contact"
-        class="page-section"
-    >
-
-        <main class="page">
-
-
-            <section class="page-header">
-
-                <p>
-                    Let's Connect
-                </p>
-
-                <h1>
-                    Contact
-                </h1>
-
-                <span>
-                   Please contact me via
-                    the following platforms.
-                </span>
-
-            </section>
-
-
-
-            <section class="contact-container">
-                
-                <!-- INSTAGRAM -->
-
-                <a
-                    href="https://www.instagram.com/alif.3596?stkn=MWppM2plZTBrcjFuZg=="
-                    target="_blank"
-                    class="contact-card"
-                >
-
-                    <div class="contact-icon">
-                        📸
-                    </div>
-
+                    <div class="contact-icon"></div>
 
                     <div>
-
-                        <h3>
-                            Instagram
-                        </h3>
-
-                        <p>
-                          My Instagram
-                        </p>
-
+                        <h3>Email</h3>
+                        <p>muhammadalifanailadi@gmail.com</p>
                     </div>
 
-
-                    <span class="contact-arrow">
-                        →
-                    </span>
+                    <span class="contact-arrow">→</span>
 
                 </a>
 
+                <a href="https://www.instagram.com/alif.3596?stkn=MWppM2plZTBrcjFuZg==" target="_blank" rel="noopener noreferrer" class="contact-card">
 
-
-                <!-- GITHUB -->
-
-                <a
-                    href="https://github.com/alif497"
-                    target="_blank"
-                    class="contact-card"
-                >
-
-                    <div class="contact-icon">
-                        🐙
-                    </div>
-
+                    <div class="contact-icon"></div>
 
                     <div>
-
-                        <h3>
-                            GitHub
-                        </h3>
-
-                        <p>
-                            github.com/alif497
-                        </p>
-
+                        <h3>Instagram</h3>
+                        <p>My Instagram</p>
                     </div>
 
-
-                    <span class="contact-arrow">
-                        →
-                    </span>
+                    <span class="contact-arrow">→</span>
 
                 </a>
-            <!-- PESAN -->
 
-            <section class="contact-message">
+                <a href="https://github.com/alif497" target="_blank" rel="noopener noreferrer" class="contact-card">
 
-                <h2>
-                    Let's collaborate!
-                </h2>
+                    <div class="contact-icon"></div>
 
-                <p>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>github.com/alif497</p>
+                    </div>
 
-                  If you would like to discuss a website or project, or simply want to connect, please don't hesitate to contact me.
+                    <span class="contact-arrow">→</span>
 
-                </p>
-
-            </section>
-
-
-
-            <div class="back-home">
-
-                <a
-                    href="#home"
-                    class="btn secondary page-link"
-                >
-                   ← Back to Home
                 </a>
 
             </div>
 
+            <div class="contact-message">
+                <h2>Let's collaborate!</h2>
 
-        </main>
+                <p>
+                    If you would like to discuss a website or project, or simply want to connect,
+                    please don't hesitate to contact me.
+                </p>
+            </div>
 
-    </section>
+        </section>
 
-
-
-    <!-- =====================================
-         FOOTER
-    ====================================== -->
+    </main>
 
     <footer>
-
-        <p>
-            © 2026 Muhammad Alif Anail Adi
-        </p>
-
-        <p>
-          Created with HTML, CSS & JavaScript
-        </p>
-
+        <p>© 2026 Muhammad Alif Anail Adi</p>
+        <p>Created with HTML, CSS & JavaScript</p>
     </footer>
-
-
+    
+    
 
     <script src="script.js"></script>
 
