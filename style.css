@@ -60,7 +60,7 @@ body.dark .theme-button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #111827, #1e293b, #312e81);
+    background: black;
     color: white;
     transition: opacity 0.8s ease, visibility 0.8s ease;
 }
@@ -114,7 +114,7 @@ body.dark .theme-button {
     }
 }
 
-/* NAVBAR */
+
 .navbar {
     position: sticky;
     top: 0;
@@ -135,9 +135,7 @@ body.dark .theme-button {
     white-space: nowrap;
 }
 
-.logo span {
-    color: #6366f1;
-}
+
 
 nav {
     display: flex;
@@ -188,7 +186,7 @@ nav a:hover::after {
     transform: rotate(20deg) scale(1.1);
 }
 
-/* GENERAL SECTION LAYOUT */
+
 .section-padding {
     padding: 90px 30px;
     max-width: 1200px;
@@ -220,7 +218,6 @@ nav a:hover::after {
     font-size: 17px;
 }
 
-/* HERO SECTION */
 .hero {
     min-height: calc(100vh - 75px);
     display: flex;
@@ -277,12 +274,11 @@ body.dark .image-frame img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: #b74b4b;
     right: -20px;
     bottom: -20px;
     opacity: 0.7;
-    filter: blur(2px);
-    z-index: 1;
+    filter: blur(20px);
+    z-index: 10;
     animation: decorationFloat 5s ease-in-out infinite;
 }
 
@@ -361,7 +357,7 @@ body.dark .image-frame img {
 
 .primary {
     color: white;
-    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    background: #DE7272;
     box-shadow: 0 10px 25px rgba(99, 102, 241, 0.25);
 }
 
@@ -378,7 +374,7 @@ body.dark .image-frame img {
 }
 
 .social-links a {
-    color: #6366f1;
+    color:  #DE7272;
     text-decoration: none;
     font-weight: 700;
     transition: transform 0.3s ease;
@@ -388,7 +384,7 @@ body.dark .image-frame img {
     transform: translateY(-3px);
 }
 
-/* ABOUT SECTION */
+
 .about-me-container {
     width: 100%;
     max-width: 1000px;
@@ -420,7 +416,7 @@ body.dark .image-frame img {
     margin: 0;
 }
 
-/* SKILLS SECTION */
+
 .skill-cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -496,7 +492,7 @@ body.dark .skill-card p {
     color: #aeb8c9;
 }
 
-/* PROJECT SECTION */
+
 .project-container {
     width: 100%;
     display: grid;
@@ -606,7 +602,7 @@ body.dark .skill-card p {
     padding: 13px 22px;
     box-sizing: border-box;
     border-radius: 10px;
-    background: linear-gradient(135deg, #6366f1, #7c6cf6);
+    background: black;
     color: white;
     font-weight: 700;
     margin-top: auto;
@@ -617,7 +613,7 @@ body.dark .skill-card p {
     box-shadow: 0 10px 25px rgba(99, 102, 241, 0.35);
 }
 
-/* CONTACT SECTION */
+
 .contact-container {
     max-width: 800px;
     margin: auto;
@@ -655,6 +651,12 @@ body.dark .skill-card p {
     flex-shrink: 0;
 }
 
+.contact-icon img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
 .contact-card h3 {
     margin-bottom: 5px;
     font-size: 19px;
@@ -667,7 +669,7 @@ body.dark .skill-card p {
 .contact-arrow {
     margin-left: auto;
     font-size: 22px;
-    color: #6366f1;
+    color:  #DE7272;
 }
 
 .contact-message {
@@ -676,7 +678,7 @@ body.dark .skill-card p {
     padding: 40px;
     text-align: center;
     border-radius: 20px;
-    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    background: #b74b4b;
     color: white;
 }
 
@@ -690,7 +692,7 @@ body.dark .skill-card p {
     color: #e0e7ff;
 }
 
-/* FOOTER */
+
 footer {
     padding: 30px;
     text-align: center;
@@ -699,7 +701,7 @@ footer {
     line-height: 1.8;
 }
 
-/* RESPONSIVE MEDIA QUERIES */
+
 @media (max-width: 900px) {
     .hero {
         flex-direction: column;
@@ -866,5 +868,27 @@ footer {
         padding: 22px;
     }
 }
-
   
+.text-bergerak{
+    width: 100%;
+    height: 55px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-style: dashed;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.bergerak{
+  display: inline-block;
+  padding-left: 100%;
+  animation: jalan-kiri 10s linear infinite;
+  font-size: 30px;
+}
+
+
+@keyframes jalan-kiri{
+     0% { transform: translate3d(10, 10, 10); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
