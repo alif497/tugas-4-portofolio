@@ -448,7 +448,7 @@ body.dark .image-frame img {
     width: 60px;
     height: 60px;
     border-radius: 16px;
-    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    background: #DE7272;
     color: #ffffff;
     font-weight: 800;
     font-size: 18px;
@@ -458,6 +458,7 @@ body.dark .image-frame img {
     margin-bottom: 16px;
     box-shadow: 0 8px 20px rgba(99, 102, 241, 0.25);
 }
+
 
 .skill-icon img{
     object-fit: cover;
@@ -529,7 +530,7 @@ body.dark .skill-card p {
     z-index: 5;
     font-size: 28px;
     font-weight: 800;
-    color: #6366f1;
+    color: white;
 }
 
 .project-image {
@@ -583,6 +584,7 @@ body.dark .skill-card p {
     flex-wrap: wrap;
     margin-top: auto;
     margin-bottom: 25px;
+    color: white;
 }
 
 .project-tech span {
@@ -590,7 +592,7 @@ body.dark .skill-card p {
     border-radius: 20px;
     font-size: 13px;
     font-weight: 700;
-    color: #6366f1;
+    color: white;
     background: #eef2ff;
 }
 
@@ -680,6 +682,7 @@ body.dark .skill-card p {
     border-radius: 20px;
     background: #b74b4b;
     color: white;
+    transition: 0.9s ease;
 }
 
 .contact-message h2 {
@@ -690,6 +693,11 @@ body.dark .skill-card p {
 .contact-message p {
     line-height: 1.7;
     color: #e0e7ff;
+}
+
+.contact-message:hover{
+    transform: translateY(-15px);
+    border: 1px solid aqua;
 }
 
 
@@ -792,10 +800,15 @@ footer {
 
     .about-me-card {
         padding: 30px 20px;
+        transition: 0.3s ease;
     }
 
     .about-me-card p {
         font-size: 16px;
+    }
+
+    .about-me-card:hover{
+        transform: translateY(-8px);
     }
 
     .project-container {
@@ -827,6 +840,8 @@ footer {
         font-size: 38px;
     }
 }
+
+
 
 @media (max-width: 420px) {
     .navbar {
