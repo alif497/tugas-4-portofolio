@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 1500);
     }
 
-    // 2. Dark / Light Theme Toggle
+
     const themeButton = document.getElementById("themeButton");
     if (themeButton) {
         themeButton.addEventListener("click", () => {

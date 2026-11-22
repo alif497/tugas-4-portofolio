@@ -893,7 +893,7 @@ footer {
     height: 55px;
     margin: 0 auto;
     overflow: hidden;
-    border-style: dashed;
+    border: 5px solid ;
     white-space: nowrap;
     display: flex;
     align-items: center;
